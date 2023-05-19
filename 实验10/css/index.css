@@ -1,0 +1,91 @@
+@media screen and (max-width: 640px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
+@media screen and (min-width: 640px) and (max-width: 980px) {
+    html {
+      font-size: 20px;
+    }
+  }
+  
+@media screen and (min-width: 980px) {
+    html {
+      font-size: 22px;
+    }
+  }
+  dd:hover{
+    background: grey;
+    cursor: pointer;
+  }
+.m-box{
+    width: 100%;
+    height: 100%;
+
+}
+.title-box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-content{
+    width: 185px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
+.hover:hover{
+    background: grey;
+    cursor: pointer;
+}
+.title-img{
+    height: 700px;
+}
+.title-img img{
+    width: 100%;
+    height: 100%;
+}
+.nobr-box{
+    margin-top: 30px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nobr-img img{
+    margin: 30px;
+    width: 500px;
+    height: 600px;
+}
+.text-box{
+    width: 100%;
+    height: 500px;
+}
+.text-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-list{
+    margin-right: 90px;
+}
+.bold-text{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.line{
+    border-bottom: 2px solid #000000;
+}
+.xiazai{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.end-text{
+    margin-left: 500px;
+}
